@@ -1,0 +1,10 @@
+Num = 10; 
+P = pi; 
+a = 50;
+b = 3;
+Nshow = 5; 
+[f, t] = FourierSeriesCalculator2(Num, P, a, b , Nshow);
+plot(t, f);
+xlabel('Time');
+ylabel('f(x)');
+title('Fourier Series Approximation of x^3ln50x');

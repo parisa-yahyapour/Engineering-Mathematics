@@ -1,0 +1,12 @@
+t1 = -10:1:-3;
+y1 = -1 * ones(size(t1));
+plot(t1,y1);
+hold on;
+t2 = -3:1:3;
+y2 = 3.*max(0,t2);
+plot(t2,y2);
+t3 = 3:1:10;
+y3 = exp(-2.5.*t3);
+plot(t3,y3);
+grid on;
+legend('y=-1','y=3ramp(t)', 'e^-2.5t');
